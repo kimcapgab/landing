@@ -1,0 +1,164 @@
+/* style.css */
+/* Cards media queries */
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+body {
+  font-family: Overpass;
+  color: #13262F;
+  font-size: 18px;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+p{
+	font-family: 'Quicksand', sans-serif;	
+}
+
+a {
+  color: #B96B40;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.banner {
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	background-image: url('images/Mountain.jpg');
+	padding: 150px 0;
+
+}
+
+.banner h1 {
+	color: whitesmoke;
+	font-size: 80px;
+	margin: 0;
+}
+
+.banner h2 {
+	color: whitesmoke;
+	font-size: 30px;
+	margin: 0;
+}
+
+.banner h3 {
+	color: whitesmoke;
+	font-size: 25px;
+	margin: 0;
+	
+}
+
+.banner p {
+	color: whitesmoke;
+	margin: 20px 50px 75px;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+.button-blue {
+	background-color: #C47F54;
+	color: whitesmoke;
+	padding: 16px 48px;
+	border-radius: 4px;
+	
+}
+
+.button-blue:hover {
+  background-color: #F8E1B8;
+  color: #B96B40;
+}
+
+.card-white {
+	background-color: #f9f9f9;
+	text-align: center;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	width: 250px;
+	padding: 24px;
+	margin: 8px;
+
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.card-white h3 {
+	color: #C47F54;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.footer {
+  background: #C47F54;
+  text-align: center;
+  padding: 24px 0;
+  color: whitesmoke;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.container h2 {
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
